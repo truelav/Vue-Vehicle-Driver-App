@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "isActive": false,
+      "picture": "http://placehold.it/32x32",
+      "company": "CIPROMOX",
+      "email": "linaspence@cipromox.com",
+      "password": "password123",
+      "phone": "+1 (884) 577-2259",
+      "drivers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "vehicles": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "1",
+      "license_plate": "AAA1211",
+      "make": "Toyota",
+      "model": "Corolla",
+      "status": "available",
+      "driverId": ""
+    },
+    {
+      "id": "2",
+      "license_plate": "XYZ456",
+      "make": "Honda",
+      "model": "Civic",
+      "status": "occupied",
+      "driverId": "1"
+    },
+    {
+      "id": "3",
+      "license_plate": "DEF789",
+      "make": "Ford",
+      "model": "Fusion",
+      "status": "available",
+      "driverId": ""
+    },
+    {
+      "id": "4af4",
+      "make": "Ferrari",
+      "model": "La Ferraro",
+      "license_plate": "123MAR1",
+      "status": "available",
+      "driverId": "",
+      "userId": ""
+    }
+  ],
+  "drivers": [
+    {
+      "id": "1",
+      "name": "Alice Johnsonn",
+      "phone_number": "123-456-7890",
+      "email": "alice@example.com",
+      "location": "Seattle, WA",
+      "status": "occupied",
+      "vehicleId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Brown",
+      "phone_number": "555-555-5555",
+      "email": "charlie@example.com",
+      "location": "San Diego, CA",
+      "status": "available",
+      "vehicleId": ""
+    },
+    {
+      "id": "eaac",
+      "name": "Vasile Post",
+      "phone_number": "123-454-1234",
+      "email": "vasile@gmail.com",
+      "location": "Destin, FL",
+      "status": "available",
+      "vehicleId": ""
+    },
+    {
+      "id": "13b7",
+      "name": "Max Verstappen",
+      "phone_number": "110-123-5678",
+      "email": "verstappen1@gmail.com",
+      "location": "Detroit, MI",
+      "status": "available",
+      "vehicleId": ""
+    }
+  ]
+}
