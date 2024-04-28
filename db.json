@@ -70,7 +70,15 @@
       "email": "alice@example.com",
       "location": "Seattle, WA",
       "status": "occupied",
-      "vehicleId": "2"
+      "vehicleId": "2",
+      "vehicle": {
+        "id": "2",
+        "license_plate": "XYZ456",
+        "make": "Honda",
+        "model": "Civic",
+        "status": "occupied",
+        "driverId": "1"
+      }
     },
     {
       "id": "3",

@@ -5,7 +5,10 @@ export function useDrivers() {
     const drivers = ref([])
     const isDriversLoading = ref(true)
     const isDriverLoading = ref(false)
+
     const isEditDriverLoading = ref(false)
+    const isEditDriverSuccess = ref(false)
+
     const isSaveDriverLoading = ref(false)
     const isDeleteDriverLoading = ref(false)
 
@@ -73,6 +76,11 @@ export function useDrivers() {
             }
             console.log('Driver Edited Success');
             isEditDriverLoading.value = false
+            isEditDriverSuccess.value = true
+
+            setTimeout(() => {
+                isEditDriverSuccess.value = false
+            }, 1300)
         } catch (error) {
             console.error('Error adding driver:', error);
         }
@@ -108,7 +116,10 @@ export function useDrivers() {
         deleteDriver,
         isDriverLoading,
         isDriversLoading, 
+
         isEditDriverLoading,
+        isEditDriverSuccess,
+        
         isSaveDriverLoading,
         isDeleteDriverLoading
     }

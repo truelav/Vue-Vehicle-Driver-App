@@ -1,6 +1,12 @@
-# Vue Router 4 Course Starter Files
-Starter files for [Vue Router 4 for Everyone](https://vueschool.io/courses/vue-router-4-for-everyone)
+# Vue Vehicle-Driver Assignement App
 
+To start the app
+
+    - clone repo
+    - cd into folder directory
+    - run npm install
+    - run json-server --watch db.json (to start local JSON server)
+    - run npm run dev (to start development mode)
 
 Features Done:
 
@@ -32,7 +38,7 @@ Missing Features:
     - Testing (Unit and Integration)
     - Pinia Store or VueX
     - Error Handling
-    - No Typescript
+    - Typescript
 
-There is anothe solution that I thought of when I was 90% done with my implementation
+There is another solution that I thought of when I was 90% done with my implementation
 I will gladly go over if needed ( Depending on the requirments of the application )    

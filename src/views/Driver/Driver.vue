@@ -7,6 +7,7 @@
         <driver-edit-form 
           :driver="driver"
           :isDriverLoading="isDriverLoading"
+          :isEditDriverSuccess="isEditDriverSuccess"
           @saveDriver="handleDriverEdit"
         />
       </div>
@@ -37,10 +38,9 @@
       const route = useRoute();
       const dialogIsVisible = ref(false)
       const id = computed(() => route.params.id);
-      const { driver, fetchDriver, isDriverLoading, editDriver } = useDrivers()
+      const { driver, fetchDriver, isDriverLoading, editDriver, isEditDriverSuccess } = useDrivers()
 
       const handleDriverEdit = (driver) => {
-        console.log(driver)
         editDriver(driver)
       }
 
@@ -54,6 +54,7 @@
         isDriverLoading,
         handleDriverEdit,
         dialogIsVisible,
+        isEditDriverSuccess,
         id
       };
     },

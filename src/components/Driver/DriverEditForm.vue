@@ -1,5 +1,8 @@
 <template>
     <div class="edit-form-container">
+        <div v-if="isEditDriverSuccess" class="success-alert-container">
+            Data saved successfully!
+        </div>
         <div class="list-container">
             <form @submit.prevent  class="form">
                 <div class="input-header-container">
@@ -94,6 +97,9 @@
                 type: Object
             },
             isDriverLoading: {
+                type: Boolean
+            },
+            isEditDriverSuccess: {
                 type: Boolean
             }
         },
