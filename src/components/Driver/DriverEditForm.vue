@@ -30,6 +30,7 @@
                 <div class="input-container">
                     <my-label>Driver Status:</my-label>
                     <my-input 
+                        :theme="driver.status" 
                         v-model="driver.status"
                         type="text"
                         disabled
@@ -74,7 +75,7 @@
                 </div>
 
                 <my-button 
-                    class="button-primary"
+                    theme="btn-primary btn-submit"
                     @click="saveDriver" 
                     :disabled="isDriverLoading"
                 >
