@@ -36,7 +36,7 @@
       MyInput,
       MySelect,
       MyLabel,
-      MyLoading
+      MyLoading,
     },
     setup() {
       const route = useRoute();
