@@ -3,6 +3,7 @@ Starter files for [Vue Router 4 for Everyone](https://vueschool.io/courses/vue-r
 
 
 Features Done:
+
     - JSON Server
     - Basic CRUD operations
     - API async requests (adding setTimeout to fake fetch delays)
@@ -13,7 +14,8 @@ Features Done:
     - Thinking in terms of scalability (Searchin by name, Filtering )
     - Lazy Loading
 
-Features To Do;
+Features To Do:
+
     - Theming
     - Styling
     - Skeleton
